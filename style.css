@@ -44,9 +44,13 @@ body {
 }
 
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
     background-color: #d33a2c;
     padding: 1% 2% 2% 2%;
     color: #fff;
+    box-shadow: 0px 6px 6px #6b6b6b;
 }
 
 .logo>label {
