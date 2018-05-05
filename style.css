@@ -44,8 +44,7 @@ body {
 }
 
 .header {
-    position: sticky;
-    top: 0;
+    position: relative;
     z-index: 999;
     background-color: #d33a2c;
     padding: 1% 2% 2% 2%;
@@ -419,4 +418,6 @@ input {position: relative;height: 30px;left: 0;padding: 0;margin: 0;}
 
 .select-user:checked::after{
     content: '✔ User Selected';
+    background: #c9c9c9;
+    color: #d33a2c;
 }
